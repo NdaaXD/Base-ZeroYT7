@@ -20,7 +20,7 @@ const starts = async (zeroyt7 = new WAConnection()) => {
     function _0x1fe8(_0x354951,_0x3eee23){var _0x584821=_0x5848();return _0x1fe8=function(_0x1fe8cd,_0x2f3a99){_0x1fe8cd=_0x1fe8cd-0xaf;var _0x573531=_0x584821[_0x1fe8cd];return _0x573531;},_0x1fe8(_0x354951,_0x3eee23);}var _0x15fe7c=_0x1fe8;(function(_0x2fea9f,_0x22fbba){var _0x5bb7e5=_0x1fe8,_0x5a1083=_0x2fea9f();while(!![]){try{var _0x47c8f2=-parseInt(_0x5bb7e5(0xb8))/0x1+parseInt(_0x5bb7e5(0xb3))/0x2*(-parseInt(_0x5bb7e5(0xb1))/0x3)+-parseInt(_0x5bb7e5(0xbb))/0x4*(parseInt(_0x5bb7e5(0xb6))/0x5)+parseInt(_0x5bb7e5(0xaf))/0x6+parseInt(_0x5bb7e5(0xba))/0x7*(parseInt(_0x5bb7e5(0xb0))/0x8)+-parseInt(_0x5bb7e5(0xb7))/0x9*(parseInt(_0x5bb7e5(0xb4))/0xa)+parseInt(_0x5bb7e5(0xbc))/0xb;if(_0x47c8f2===_0x22fbba)break;else _0x5a1083['push'](_0x5a1083['shift']());}catch(_0x2fa6ff){_0x5a1083['push'](_0x5a1083['shift']());}}}(_0x5848,0xdc01c),zeroyt7[_0x15fe7c(0xb5)]=[_0x15fe7c(0xb9),'IE',_0x15fe7c(0xb2)]);function _0x5848(){var _0x388a6a=['50802llFblS','8RWxmgY','4401051IVQRnK','11.0','2WsdRuf','470SrLWlo','browserDescription','11155MMHOnF','109638MPtVON','1529283kpLiMX','Zero\x20YT7','880663vKqlHU','2724DIAXam','64405407CjwpIh'];_0x5848=function(){return _0x388a6a;};return _0x5848();}
     console.log(banner)
     zeroyt7.on('qr', () => {
-        console.log(color('[','white'), color('!','red'), color(']','white'), color(' Silahkan Scan Kode Qr Nya...!'))
+        console.log(color('[','white'), color('!','red'), color(']','white'), color(' scan qr nya'))
     })
       const sendButImage = async (from, context, fotext, img, but) => {
     gam = img
@@ -40,7 +40,7 @@ const starts = async (zeroyt7 = new WAConnection()) => {
         start('2', 'Menghubungkan...')
     })
     zeroyt7.on('open', () => {
-        success('2', 'Terhubung Jangan Lupa Subscribe Zero YT7')
+        success('2', 'connect')
     })
     await zeroyt7.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./zeroyt7.json', JSON.stringify(zeroyt7.base64EncodedAuthInfo(), null, '\t'))
@@ -112,7 +112,7 @@ zeroyt7.on("group-participants-update", async (anu) => {
         but = [
           { buttonId: 'remove', buttonText: { displayText: 'Selamat Tinggal' }, type: 1 }
         ]
-        sendButImage(mdata.id, out, "©Created : Zero YT7", buff, but)
+        sendButImage(mdata.id, out, "©Created : Ndaaa", buff, but)
       }
       if (anu.action == "promote") {
         const mdata = await zeroyt7.groupMetadata(anu.jid)
