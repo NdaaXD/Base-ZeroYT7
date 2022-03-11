@@ -427,7 +427,7 @@ Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Se
 │ あ ${prefix}report
 └⬣`
 teks =
-`Ini Base Buatan Zero YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
+`NdaaBotz`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: '☰ INFO' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 }
@@ -439,8 +439,8 @@ timestamp = speed();
 				latensi = speed() - timestamp
                   	teks =
 `┏━➤ *INFO BOT* 
-*┃┃* Creator Bot : Zero YT7
-*┃┃* Nama Owner : ${ownername}
+*┃┃* Creator Bot : Ndaa
+*┃┃* Nama Owner : ${ownername}YT7
 *┃┃* Nama Bot : ${botname}
 *┃┃* Prefix : Multi Prefix
 *┃┃* Total Pengguna : ${pendaftar.length}
@@ -907,11 +907,11 @@ case 'sc':
 teks = 
 `*Bot Ini Menggunakan Sourcecode*
 ╭─────────────────────
-├ Sc Ori = https://github.com/Zero-YT7/Base-ZeroYT7
-├ Sc Full Fitur = https://youtube.com/ZeroYT7
+├ Sc Ori = Zeroyt7
+├ recode= Ndaaaa
 ├─────────────────────
-├ Creator Base = Zero YT7
-├ Creator Sc = Zero YT7
+├ Creator Base = 
+├ Creator Sc = 
 └─────────────────────`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
